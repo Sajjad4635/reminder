@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/main/AndroidManifest.xml:2:5-32:19
+INJECTED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/main/AndroidManifest.xml:3:5-32:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/sajad/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/sajad/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] /Users/sajad/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
@@ -98,7 +98,7 @@ INJECTED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/debug/
 		INJECTED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/debug/AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from /Users/sajad/AndroidStudioProjects/reminder/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-library#androidx.window.extensions

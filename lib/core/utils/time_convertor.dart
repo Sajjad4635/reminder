@@ -6,4 +6,16 @@ class DateTimeConvertor {
 
     return t;
   }
+  
+  static String dateTimeToDate(DateTime time) {
+    var t = DateFormat.yMMMd().format(time);
+
+    return t;
+  }
+  
+  static String dateTimeToWeekDay(DateTime time) {
+    var t = DateFormat.EEEE().format(time);
+
+    return t;
+  }
 }

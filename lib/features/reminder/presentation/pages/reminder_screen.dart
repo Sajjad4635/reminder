@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:reminder/core/utils/time_convertor.dart';
 import 'package:reminder/core/widgets/loading_widget.dart';
+import 'package:reminder/core/widgets/text_widget.dart';
 import 'package:reminder/features/reminder/presentation/manager/reminder_bloc.dart';
+import 'package:reminder/features/reminder/presentation/widgets/date_show_widget.dart';
 import 'package:reminder/features/reminder/presentation/widgets/header_widget.dart';
 import 'package:reminder/features/reminder/presentation/widgets/reminder_item_widget.dart';
 import 'package:reminder/features/reminder/presentation/widgets/try_again_widget.dart';
@@ -36,6 +39,10 @@ class _ReminderScreenState extends State<ReminderScreen> {
                 height: 4,
                 color: Colors.grey.withOpacity(0.5),
               ),
+              const SizedBox(
+                height: 20,
+              ),
+              dateShow(),
               const SizedBox(
                 height: 20,
               ),
