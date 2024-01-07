@@ -30,6 +30,4 @@ Future init() async {
 
   ///data sources
   serviceLocator.registerLazySingleton<ReminderApi>(() => ReminderApiImpl(serviceLocator()));
-  
-  
 }

@@ -7,7 +7,6 @@ import 'package:reminder/features/reminder/domain/entities/reminder_response.dar
 import 'package:reminder/features/reminder/domain/use_cases/reminder_usecase.dart';
 
 part 'reminder_event.dart';
-
 part 'reminder_state.dart';
 
 class ReminderBloc extends Bloc<ReminderEvent, ReminderState> {

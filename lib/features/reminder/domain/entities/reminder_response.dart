@@ -1,4 +1,3 @@
-
 class GetReminderResponse {
   final int code;
   final String errorMessage;
@@ -21,5 +20,4 @@ class DatumResponse {
     required this.text,
     required this.color,
   });
-
 }

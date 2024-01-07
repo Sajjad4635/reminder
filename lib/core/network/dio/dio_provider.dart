@@ -12,7 +12,7 @@ class DioProvider {
   DioProvider._internal() {
     dio = Dio(
       BaseOptions(
-        connectTimeout: const Duration(milliseconds:NetworkConst.kConnectTimeout),
+        connectTimeout: const Duration(milliseconds: NetworkConst.kConnectTimeout),
         receiveTimeout: const Duration(milliseconds: NetworkConst.kReceiveTimeout),
       ),
     )..interceptors.addAll(
